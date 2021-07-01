@@ -44,14 +44,14 @@ body {
     }
     .main-bg {
       background-image: url("./images/gray-bg.png");
-      height: 300vh;
+      height: 290vh;
       top: 100vh;
       @include bg-img();
     }
     .footer-bg {
       background-image: url("./images/footer-bg.png");
       height: 100vh;
-      top: 385vh;
+      top: 375vh;
       @include bg-img();
       overflow: hidden;
 
@@ -442,6 +442,65 @@ body {
                 margin: 0;
               }
             }
+          }
+        }
+      }
+
+      .brends-info {
+        width: 850px;
+        display: flex;
+        flex-direction: column;
+        margin: 160px auto 0;
+
+        .brends {
+          display: inline-block;
+          margin: 0 auto;
+
+          .brend-img {
+            margin-right: 67px;
+            float: left;
+          }
+
+          .brend-img-4 {
+            margin: 0;
+          }
+          .clear {
+            clear: both;
+          }
+        }
+
+        .brends-user {
+          display: flex;
+
+          .brend-user {
+            width: auto;
+            margin: 45px 24px 0 0;
+
+            .user-block {
+              display: flex;
+              align-items: center;
+              img:nth-child(1) {
+                margin-right: 16px;
+              }
+            }
+
+            .brend-user-des-block {
+              margin-top: 21px;
+              padding-right: 30px;
+              .brend-user-des {
+                @include SegoeUI();
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+              }
+            }
+          }
+
+          .brend-user-3 {
+            margin-right: 0;
           }
         }
       }
