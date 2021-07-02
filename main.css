@@ -1,4 +1,4 @@
-@import url("https://db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI");
+@import url("http://fonts.cdnfonts.com/css/segoe-ui-4");
 @import url("https://fonts.googleapis.com/css2?family=Pavanam&family=Paytone+One&display=swap");
 * {
   box-sizing: border-box;
@@ -458,6 +458,77 @@ body .container .main .brends-info .brends-user .brend-user .brend-user-des-bloc
 }
 body .container .main .brends-info .brends-user .brend-user-3 {
   margin-right: 0;
+}
+body .container .main .brends-info .footer .footer-row {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+body .container .main .footer {
+  padding-top: 320px;
+}
+body .container .main .footer .footer-row {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+body .container .main .footer .footer-row .col-1 .footer-logo {
+  margin-right: 149px;
+}
+body .container .main .footer .footer-row .col-2 {
+  display: flex;
+}
+body .container .main .footer .footer-row .col-2 .list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0 84px 0 0;
+}
+body .container .main .footer .footer-row .col-2 .list-unstyled .ftr-link {
+  display: inline-block;
+  font-family: "Segoe Ui", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 11px;
+}
+body .container .main .footer .footer-row .col-2 .list-unstyled .text-up {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body .container .main .footer .footer-row .col-3 {
+  margin-left: auto;
+  color: #fff;
+  font-family: "Segoe Ui", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+body .container .main .footer .footer-row .col-3 .socials {
+  display: flex;
+}
+body .container .main .footer .footer-row .col-3 .socials .s-icon {
+  margin-left: 37px;
+}
+body .container .main .footer .footer-row .col-3 .ter-prv {
+  font-size: 18px;
+  text-align: right;
+}
+body .container .main .footer .footer-row .col-3 .copy-rght {
+  font-size: 18px;
+  text-align: right;
+}
+body .container .main .footer .footer-row .thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 108px auto 0;
+  width: 409.96px;
+  height: 56px;
+  background-color: #fff;
+  color: #000;
 }
 
 /*# sourceMappingURL=main.css.map */

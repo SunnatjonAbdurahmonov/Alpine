@@ -1,4 +1,4 @@
-@import url("https://db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI");
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
 @import url("https://fonts.googleapis.com/css2?family=Pavanam&family=Paytone+One&display=swap");
 
 @mixin PaytonOne {
@@ -501,6 +501,89 @@ body {
 
           .brend-user-3 {
             margin-right: 0;
+          }
+        }
+
+        .footer {
+          .footer-row {
+            width: 100%;
+            height: 50%;
+            display: flex;
+          }
+        }
+      }
+
+      .footer {
+        padding-top: 320px;
+        .footer-row {
+          height: 50%;
+          width: 100%;
+          display: flex;
+
+          .col-1 {
+            .footer-logo {
+              margin-right: 149px;
+            }
+          }
+
+          .col-2 {
+            display: flex;
+            .list-unstyled {
+              list-style: none;
+              padding: 0;
+              margin: 0 84px 0 0;
+
+              .ftr-link {
+                display: inline-block;
+                @include SegoeUI();
+                font-size: 18px;
+                color: #fff;
+                text-decoration: none;
+                margin-bottom: 11px;
+              }
+
+              .text-up {
+                display: inline-block;
+                margin-bottom: 22px;
+                font-weight: bold;
+                text-transform: uppercase;
+              } 
+            }
+          }
+
+          .col-3 {
+            margin-left: auto;
+            color: #fff;
+            @include SegoeUI();
+
+            .socials {
+              display: flex;
+
+              .s-icon {
+                margin-left: 37px;
+              }
+            }
+
+            .ter-prv {
+              font-size: 18px;
+              text-align: right;
+            }
+
+            .copy-rght {
+              font-size: 18px;
+              text-align: right;
+            }
+          }
+
+          .thanks {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 108px auto 0;
+            width: 409.96px;
+            height: 56px;
+            background-color: #fff;
+            color: #000;
           }
         }
       }
